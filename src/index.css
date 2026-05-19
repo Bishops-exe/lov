@@ -1,0 +1,21 @@
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+html, body, #root {
+  @apply w-full h-full m-0 p-0 overflow-x-hidden;
+  font-family: Arial, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[aria-hidden="true"] {
+  @apply hidden;
+}
