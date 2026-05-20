@@ -30,7 +30,7 @@ export default function MainPage({onBytesReceived}: {
       </div>
       <div className="flex sm:flex-row-reverse flex-col gap-8 justify-around items-center *:flex-1">
         <div className="flex flex-col gap-2">
-          <h1 className="m-0">Got no data?</h1>
+          <h2 className="m-0">Got no data?</h2>
           <span>Try out these samples! Hosted by <a className="link text-inherit"
                                                     href="https://jsonplaceholder.typicode.com/">the json placeholder api</a></span>
         </div>
